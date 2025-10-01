@@ -1,0 +1,53 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Arquivos específicos do projeto
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de configuração local
+config/database.php
+config/mail.php
+
+# Arquivos de teste
+/test.html
+/syscoop-api-test.html
+
+# Documentação temporária
+*.md
+!README.md*.zip
+*.tar.gz
+*.rar
+*.zip
+*.tar.gz
+*.rar
+*.zip
+*.tar.gz
+*.rar
